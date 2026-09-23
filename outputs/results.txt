@@ -1,6 +1,6 @@
 OUTPUTS
 
-1. ex_1
+1. ex_1: The script searches for pairs of residues whose CA atoms are within a specified distance
 
 (base) PS C:\Users\noabu\Downloads\5CUATRI\BP\P1> python3 ex_1.py 1ubq.pdb 8
 CA contacts:
@@ -331,9 +331,11 @@ CA contacts:
 325: ARG   74  --  GLY   76    7.07 Å
 326: GLY   75  --  GLY   76    3.79 Å
 
+I used 1ubq.pdb with a cutoff of 8 Å and several pairs of nearby residues were identified. The distances in the output show how close the CA atoms of
+these residues are in the protein structure.
 
 
-2. ex_2
+2. ex_2: The script finds the atoms belonging to a specific residue in the protein structure
 
 (base) PS C:\Users\noabu\Downloads\5CUATRI\BP\P1> python3 ex_2.py 1ubq.pdb 8          
 Residue LEU 8 (Chain A):
@@ -346,8 +348,9 @@ Residue LEU 8 (Chain A):
   Atom: CD1  Coordinates: [29.308 39.75  23.095]
   Atom: CD2  Coordinates: [27.7   39.721 21.228]
 
-3. ex_3
+For this case 8 in 1ubq.pdb the program finds the residue as LEU and listed its atoms and their coordinates.
 
+3. ex_3:The script searches for close contacts between selected atoms within the cutoff provided
 
 (base) PS C:\Users\noabu\Downloads\5CUATRI\BP\P1> python3 ex_3.py 1ubq.pdb 3.5       
 Possible Hydrogen Bonds:
@@ -399,13 +402,17 @@ Possible Hydrogen Bonds:
 46: (N) -- (N)    3.19 Å
 47: (N) -- (N)    3.49 Å
 
+Using 3.5 as the cutoff limit here the output lists the pairs of atoms that are within this distance.
+
 4. ex_4
 
 (base) PS C:\Users\noabu\Downloads\5CUATRI\BP\P1> python3 ex_4.py 1ubq.pdb ALA       
 Residue ALA 28 (Chain A): [38.794 25.761 13.88 ]
 Residue ALA 46 (Chain A): [18.443 29.143 19.083]
 
-5. ex_5
+Using ALA as the residue type, the program found two alanine residues and their CA coordinates.
+
+5. ex_5:The script searches for short distances between carbon and nitrogen atoms from different residues
 
 (base) PS C:\Users\noabu\Downloads\5CUATRI\BP\P1> python3 ex_5.py 1ubq.pdb 2.5       
 Backbone Peptide Bonds: 
@@ -485,8 +492,9 @@ Backbone Peptide Bonds:
 74: THR (C) -- LEU (N)  1.32 Å
 75: LEU (C) -- THR (N)  1.35 Å
 
+Using 2.5 cutoff we get back the C–N connections forming the protein backbone.
 
-6. ex_6
+6. ex_6: The script searches for contacts between the sulfur atoms of cysteine residues
 
 (base) PS C:\Users\noabu\Downloads\5CUATRI\BP\P1> python3 ex_6.py 6axg_AC.pdb 24     
 Disulfide bonds:
@@ -495,7 +503,9 @@ Disulfide bonds:
 3: CYS (SG) -- CYS (SG)  23.80 Å
 4: CYS (SG) -- CYS (SG)  15.13 Å
 
-7. ex_7
+Using 24 limit and one of the input pdbs we get that four pairs of cysteine sulfur atoms were found within the specified distance.
+
+7. ex_7: The script calculates the distances between all atoms belonging to two selected residues.
 
 (base) PS C:\Users\noabu\Downloads\5CUATRI\BP\P1> python3 ex_7.py 1ubq.pdb 10 20
 N -- N  26.84 Å
@@ -522,3 +532,5 @@ O -- C  26.76 Å
 O -- O  27.57 Å
 O -- CB  28.47 Å
 O -- OG  28.05 Å
+
+Here the output shows the relationship between these two residues at the atomic level.

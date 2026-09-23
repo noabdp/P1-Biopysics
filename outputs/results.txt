@@ -1,0 +1,524 @@
+OUTPUTS
+
+1. ex_1
+
+(base) PS C:\Users\noabu\Downloads\5CUATRI\BP\P1> python3 ex_1.py 1ubq.pdb 8
+CA contacts:
+  1: MET    1  --  GLN    2    3.80 Å
+  2: MET    1  --  ILE    3    6.58 Å
+  3: MET    1  --  GLU   16    5.51 Å
+  4: MET    1  --  VAL   17    5.36 Å
+  5: MET    1  --  GLU   18    5.89 Å
+  6: MET    1  --  PRO   19    7.96 Å
+  7: MET    1  --  LYS   63    5.39 Å
+  8: MET    1  --  GLU   64    7.40 Å
+  9: GLN    2  --  ILE    3    3.80 Å
+ 10: GLN    2  --  PHE    4    6.90 Å
+ 11: GLN    2  --  THR   14    6.62 Å
+ 12: GLN    2  --  LEU   15    5.69 Å
+ 13: GLN    2  --  GLU   16    4.70 Å
+ 14: GLN    2  --  VAL   17    6.32 Å
+ 15: GLN    2  --  LYS   63    5.79 Å
+ 16: GLN    2  --  GLU   64    5.54 Å
+ 17: GLN    2  --  SER   65    7.98 Å
+ 18: ILE    3  --  PHE    4    3.82 Å
+ 19: ILE    3  --  VAL    5    6.78 Å
+ 20: ILE    3  --  THR   14    5.82 Å
+ 21: ILE    3  --  LEU   15    5.51 Å
+ 22: ILE    3  --  GLU   16    6.53 Å
+ 23: ILE    3  --  VAL   17    7.21 Å
+ 24: ILE    3  --  LYS   63    6.03 Å
+ 25: ILE    3  --  GLU   64    4.65 Å
+ 26: ILE    3  --  SER   65    5.27 Å
+ 27: ILE    3  --  THR   66    5.98 Å
+ 28: ILE    3  --  LEU   67    7.72 Å
+ 29: PHE    4  --  VAL    5    3.82 Å
+ 30: PHE    4  --  LYS    6    6.35 Å
+ 31: PHE    4  --  THR   12    6.40 Å
+ 32: PHE    4  --  ILE   13    5.71 Å
+ 33: PHE    4  --  THR   14    4.62 Å
+ 34: PHE    4  --  LEU   15    6.37 Å
+ 35: PHE    4  --  GLU   64    6.55 Å
+ 36: PHE    4  --  SER   65    6.24 Å
+ 37: PHE    4  --  THR   66    4.52 Å
+ 38: PHE    4  --  LEU   67    6.28 Å
+ 39: VAL    5  --  LYS    6    3.84 Å
+ 40: VAL    5  --  THR    7    6.47 Å
+ 41: VAL    5  --  THR   12    5.46 Å
+ 42: VAL    5  --  ILE   13    5.12 Å
+ 43: VAL    5  --  THR   14    6.29 Å
+ 44: VAL    5  --  LEU   15    7.58 Å
+ 45: VAL    5  --  THR   66    5.56 Å
+ 46: VAL    5  --  LEU   67    4.86 Å
+ 47: VAL    5  --  HIS   68    5.69 Å
+ 48: VAL    5  --  LEU   69    6.44 Å
+ 49: LYS    6  --  THR    7    3.81 Å
+ 50: LYS    6  --  LEU    8    6.85 Å
+ 51: LYS    6  --  GLY   10    6.79 Å
+ 52: LYS    6  --  LYS   11    6.13 Å
+ 53: LYS    6  --  THR   12    4.30 Å
+ 54: LYS    6  --  ILE   13    6.48 Å
+ 55: LYS    6  --  THR   66    6.77 Å
+ 56: LYS    6  --  LEU   67    6.30 Å
+ 57: LYS    6  --  HIS   68    4.97 Å
+ 58: LYS    6  --  LEU   69    6.04 Å
+ 59: THR    7  --  LEU    8    3.83 Å
+ 60: THR    7  --  THR    9    5.50 Å
+ 61: THR    7  --  GLY   10    5.81 Å
+ 62: THR    7  --  LYS   11    5.57 Å
+ 63: THR    7  --  THR   12    6.06 Å
+ 64: THR    7  --  ILE   13    7.99 Å
+ 65: THR    7  --  HIS   68    6.14 Å
+ 66: THR    7  --  LEU   69    5.01 Å
+ 67: THR    7  --  VAL   70    6.59 Å
+ 68: LEU    8  --  THR    9    3.82 Å
+ 69: LEU    8  --  GLY   10    5.57 Å
+ 70: LEU    8  --  LYS   11    7.36 Å
+ 71: LEU    8  --  LEU   69    7.07 Å
+ 72: LEU    8  --  VAL   70    6.56 Å
+ 73: THR    9  --  GLY   10    3.77 Å
+ 74: THR    9  --  LYS   11    5.57 Å
+ 75: GLY   10  --  LYS   11    3.77 Å
+ 76: GLY   10  --  THR   12    6.40 Å
+ 77: LYS   11  --  THR   12    3.81 Å
+ 78: LYS   11  --  ILE   13    6.56 Å
+ 79: THR   12  --  ILE   13    3.79 Å
+ 80: THR   12  --  THR   14    6.67 Å
+ 81: ILE   13  --  THR   14    3.79 Å
+ 82: ILE   13  --  LEU   15    6.53 Å
+ 83: THR   14  --  LEU   15    3.80 Å
+ 84: THR   14  --  GLU   16    6.95 Å
+ 85: LEU   15  --  GLU   16    3.80 Å
+ 86: LEU   15  --  VAL   17    6.20 Å
+ 87: LEU   15  --  LYS   29    7.62 Å
+ 88: LEU   15  --  ILE   30    7.86 Å
+ 89: GLU   16  --  VAL   17    3.76 Å
+ 90: GLU   16  --  GLU   18    7.17 Å
+ 91: VAL   17  --  GLU   18    3.78 Å
+ 92: VAL   17  --  PRO   19    6.69 Å
+ 93: VAL   17  --  ASP   21    6.78 Å
+ 94: VAL   17  --  VAL   26    7.57 Å
+ 95: GLU   18  --  PRO   19    3.81 Å
+ 96: GLU   18  --  SER   20    5.24 Å
+ 97: GLU   18  --  ASP   21    5.47 Å
+ 98: GLU   18  --  LEU   56    7.65 Å
+ 99: PRO   19  --  SER   20    3.80 Å
+100: PRO   19  --  ASP   21    5.43 Å
+101: PRO   19  --  THR   55    6.52 Å
+102: PRO   19  --  LEU   56    4.76 Å
+103: PRO   19  --  SER   57    4.74 Å
+104: PRO   19  --  ILE   61    7.18 Å
+105: PRO   19  --  GLN   62    7.60 Å
+106: SER   20  --  ASP   21    3.80 Å
+107: SER   20  --  THR   22    6.47 Å
+108: SER   20  --  THR   55    5.54 Å
+109: SER   20  --  LEU   56    6.26 Å
+110: SER   20  --  SER   57    6.11 Å
+111: ASP   21  --  THR   22    3.77 Å
+112: ASP   21  --  ILE   23    6.65 Å
+113: ASP   21  --  ASN   25    6.22 Å
+114: ASP   21  --  VAL   26    7.03 Å
+115: ASP   21  --  THR   55    5.21 Å
+116: ASP   21  --  LEU   56    6.12 Å
+117: THR   22  --  ILE   23    3.79 Å
+118: THR   22  --  GLU   24    5.29 Å
+119: THR   22  --  ASN   25    5.18 Å
+120: THR   22  --  VAL   26    6.53 Å
+121: THR   22  --  ASP   52    6.49 Å
+122: THR   22  --  GLY   53    5.93 Å
+123: THR   22  --  ARG   54    5.42 Å
+124: THR   22  --  THR   55    3.93 Å
+125: THR   22  --  LEU   56    6.27 Å
+126: ILE   23  --  GLU   24    3.83 Å
+127: ILE   23  --  ASN   25    5.32 Å
+128: ILE   23  --  VAL   26    5.03 Å
+129: ILE   23  --  LYS   27    6.28 Å
+130: ILE   23  --  LEU   50    6.81 Å
+131: ILE   23  --  GLU   51    6.32 Å
+132: ILE   23  --  ASP   52    4.48 Å
+133: ILE   23  --  GLY   53    6.26 Å
+134: ILE   23  --  ARG   54    6.02 Å
+135: ILE   23  --  THR   55    5.77 Å
+136: ILE   23  --  LEU   56    6.69 Å
+137: GLU   24  --  ASN   25    3.81 Å
+138: GLU   24  --  VAL   26    5.51 Å
+139: GLU   24  --  LYS   27    5.20 Å
+140: GLU   24  --  ALA   28    6.38 Å
+141: GLU   24  --  PRO   38    7.87 Å
+142: GLU   24  --  GLU   51    7.96 Å
+143: GLU   24  --  ASP   52    4.54 Å
+144: GLU   24  --  GLY   53    6.50 Å
+145: ASN   25  --  VAL   26    3.78 Å
+146: ASN   25  --  LYS   27    5.36 Å
+147: ASN   25  --  ALA   28    5.02 Å
+148: ASN   25  --  LYS   29    6.34 Å
+149: VAL   26  --  LYS   27    3.81 Å
+150: VAL   26  --  ALA   28    5.38 Å
+151: VAL   26  --  LYS   29    5.11 Å
+152: VAL   26  --  ILE   30    6.35 Å
+153: LYS   27  --  ALA   28    3.82 Å
+154: LYS   27  --  LYS   29    5.45 Å
+155: LYS   27  --  ILE   30    5.07 Å
+156: LYS   27  --  GLN   31    6.23 Å
+157: LYS   27  --  PRO   38    5.42 Å
+158: LYS   27  --  GLN   41    7.14 Å
+159: ALA   28  --  LYS   29    3.84 Å
+160: ALA   28  --  ILE   30    5.38 Å
+161: ALA   28  --  GLN   31    4.98 Å
+162: ALA   28  --  ASP   32    6.10 Å
+163: ALA   28  --  PRO   38    6.42 Å
+164: LYS   29  --  ILE   30    3.82 Å
+165: LYS   29  --  GLN   31    5.42 Å
+166: LYS   29  --  ASP   32    5.00 Å
+167: LYS   29  --  LYS   33    6.24 Å
+168: ILE   30  --  GLN   31    3.83 Å
+169: ILE   30  --  ASP   32    5.40 Å
+170: ILE   30  --  LYS   33    5.19 Å
+171: ILE   30  --  GLU   34    5.81 Å
+172: ILE   30  --  GLY   35    6.96 Å
+173: ILE   30  --  ILE   36    6.77 Å
+174: ILE   30  --  PRO   38    7.96 Å
+175: GLN   31  --  ASP   32    3.79 Å
+176: GLN   31  --  LYS   33    5.50 Å
+177: GLN   31  --  GLU   34    5.47 Å
+178: GLN   31  --  GLY   35    4.31 Å
+179: GLN   31  --  ILE   36    4.67 Å
+180: GLN   31  --  PRO   37    5.61 Å
+181: GLN   31  --  PRO   38    6.45 Å
+182: ASP   32  --  LYS   33    3.80 Å
+183: ASP   32  --  GLU   34    6.06 Å
+184: ASP   32  --  GLY   35    5.73 Å
+185: ASP   32  --  ILE   36    7.94 Å
+186: LYS   33  --  GLU   34    3.82 Å
+187: LYS   33  --  GLY   35    5.92 Å
+188: GLU   34  --  GLY   35    3.78 Å
+189: GLU   34  --  ILE   36    5.76 Å
+190: GLY   35  --  ILE   36    3.78 Å
+191: GLY   35  --  PRO   37    6.31 Å
+192: ILE   36  --  PRO   37    3.83 Å
+193: ILE   36  --  PRO   38    6.33 Å
+194: ILE   36  --  GLN   40    7.00 Å
+195: ILE   36  --  GLN   41    7.34 Å
+196: PRO   37  --  PRO   38    3.81 Å
+197: PRO   37  --  ASP   39    5.46 Å
+198: PRO   37  --  GLN   40    5.62 Å
+199: PRO   37  --  GLN   41    6.98 Å
+200: PRO   38  --  ASP   39    3.81 Å
+201: PRO   38  --  GLN   40    5.37 Å
+202: PRO   38  --  GLN   41    5.22 Å
+203: ASP   39  --  GLN   40    3.81 Å
+204: ASP   39  --  GLN   41    5.62 Å
+205: ASP   39  --  ARG   72    7.93 Å
+206: GLN   40  --  GLN   41    3.82 Å
+207: GLN   40  --  ARG   42    6.73 Å
+208: GLN   40  --  LEU   71    5.26 Å
+209: GLN   40  --  ARG   72    4.82 Å
+210: GLN   40  --  LEU   73    5.62 Å
+211: GLN   40  --  ARG   74    7.57 Å
+212: GLN   41  --  ARG   42    3.81 Å
+213: GLN   41  --  LEU   43    6.31 Å
+214: GLN   41  --  LEU   69    6.49 Å
+215: GLN   41  --  VAL   70    6.26 Å
+216: GLN   41  --  LEU   71    5.05 Å
+217: GLN   41  --  ARG   72    6.36 Å
+218: ARG   42  --  LEU   43    3.84 Å
+219: ARG   42  --  ILE   44    6.61 Å
+220: ARG   42  --  GLN   49    6.85 Å
+221: ARG   42  --  LEU   50    7.48 Å
+222: ARG   42  --  LEU   69    5.67 Å
+223: ARG   42  --  VAL   70    5.11 Å
+224: ARG   42  --  LEU   71    5.97 Å
+225: ARG   42  --  ARG   72    6.89 Å
+226: LEU   43  --  ILE   44    3.81 Å
+227: LEU   43  --  PHE   45    6.88 Å
+228: LEU   43  --  GLN   49    5.74 Å
+229: LEU   43  --  LEU   50    5.52 Å
+230: LEU   43  --  LEU   67    6.44 Å
+231: LEU   43  --  HIS   68    5.70 Å
+232: LEU   43  --  LEU   69    4.81 Å
+233: LEU   43  --  VAL   70    6.53 Å
+234: ILE   44  --  PHE   45    3.82 Å
+235: ILE   44  --  ALA   46    6.80 Å
+236: ILE   44  --  GLY   47    6.08 Å
+237: ILE   44  --  LYS   48    5.57 Å
+238: ILE   44  --  GLN   49    4.64 Å
+239: ILE   44  --  LEU   50    5.96 Å
+240: ILE   44  --  LEU   67    5.61 Å
+241: ILE   44  --  HIS   68    4.95 Å
+242: ILE   44  --  LEU   69    6.40 Å
+243: ILE   44  --  VAL   70    7.78 Å
+244: PHE   45  --  ALA   46    3.79 Å
+245: PHE   45  --  GLY   47    5.30 Å
+246: PHE   45  --  LYS   48    5.47 Å
+247: PHE   45  --  GLN   49    6.71 Å
+248: PHE   45  --  LEU   50    7.12 Å
+249: PHE   45  --  THR   66    7.38 Å
+250: PHE   45  --  LEU   67    5.09 Å
+251: PHE   45  --  HIS   68    6.51 Å
+252: ALA   46  --  GLY   47    3.77 Å
+253: ALA   46  --  LYS   48    5.62 Å
+254: GLY   47  --  LYS   48    3.80 Å
+255: GLY   47  --  GLN   49    6.75 Å
+256: LYS   48  --  GLN   49    3.83 Å
+257: LYS   48  --  LEU   50    6.12 Å
+258: GLN   49  --  LEU   50    3.83 Å
+259: GLN   49  --  GLU   51    6.52 Å
+260: LEU   50  --  GLU   51    3.82 Å
+261: LEU   50  --  ASP   52    6.68 Å
+262: LEU   50  --  ARG   54    7.70 Å
+263: GLU   51  --  ASP   52    3.83 Å
+264: GLU   51  --  GLY   53    5.88 Å
+265: GLU   51  --  ARG   54    5.89 Å
+266: ASP   52  --  GLY   53    3.83 Å
+267: ASP   52  --  ARG   54    5.72 Å
+268: ASP   52  --  THR   55    7.97 Å
+269: GLY   53  --  ARG   54    3.82 Å
+270: GLY   53  --  THR   55    6.72 Å
+271: ARG   54  --  THR   55    3.83 Å
+272: ARG   54  --  LEU   56    6.85 Å
+273: ARG   54  --  ASP   58    6.25 Å
+274: THR   55  --  LEU   56    3.83 Å
+275: THR   55  --  SER   57    5.31 Å
+276: THR   55  --  ASP   58    5.31 Å
+277: THR   55  --  TYR   59    7.33 Å
+278: LEU   56  --  SER   57    3.82 Å
+279: LEU   56  --  ASP   58    5.39 Å
+280: LEU   56  --  TYR   59    5.52 Å
+281: LEU   56  --  ASN   60    6.53 Å
+282: LEU   56  --  ILE   61    5.60 Å
+283: SER   57  --  ASP   58    3.82 Å
+284: SER   57  --  TYR   59    5.28 Å
+285: SER   57  --  ASN   60    4.85 Å
+286: SER   57  --  ILE   61    5.95 Å
+287: SER   57  --  GLN   62    7.90 Å
+288: ASP   58  --  TYR   59    3.80 Å
+289: ASP   58  --  ASN   60    5.68 Å
+290: ASP   58  --  ILE   61    7.84 Å
+291: TYR   59  --  ASN   60    3.83 Å
+292: TYR   59  --  ILE   61    5.52 Å
+293: ASN   60  --  ILE   61    3.83 Å
+294: ASN   60  --  GLN   62    6.12 Å
+295: ILE   61  --  GLN   62    3.85 Å
+296: ILE   61  --  LYS   63    6.96 Å
+297: ILE   61  --  SER   65    6.34 Å
+298: GLN   62  --  LYS   63    3.82 Å
+299: GLN   62  --  GLU   64    6.44 Å
+300: GLN   62  --  SER   65    5.86 Å
+301: LYS   63  --  GLU   64    3.78 Å
+302: LYS   63  --  SER   65    5.55 Å
+303: GLU   64  --  SER   65    3.78 Å
+304: GLU   64  --  THR   66    6.53 Å
+305: SER   65  --  THR   66    3.83 Å
+306: SER   65  --  LEU   67    6.67 Å
+307: THR   66  --  LEU   67    3.82 Å
+308: THR   66  --  HIS   68    6.62 Å
+309: LEU   67  --  HIS   68    3.81 Å
+310: LEU   67  --  LEU   69    6.55 Å
+311: HIS   68  --  LEU   69    3.81 Å
+312: HIS   68  --  VAL   70    6.51 Å
+313: LEU   69  --  VAL   70    3.81 Å
+314: LEU   69  --  LEU   71    6.50 Å
+315: VAL   70  --  LEU   71    3.83 Å
+316: VAL   70  --  ARG   72    6.62 Å
+317: LEU   71  --  ARG   72    3.79 Å
+318: LEU   71  --  LEU   73    6.17 Å
+319: ARG   72  --  LEU   73    3.83 Å
+320: ARG   72  --  ARG   74    6.64 Å
+321: LEU   73  --  ARG   74    3.79 Å
+322: LEU   73  --  GLY   75    6.02 Å
+323: LEU   73  --  GLY   76    7.79 Å
+324: ARG   74  --  GLY   75    3.80 Å
+325: ARG   74  --  GLY   76    7.07 Å
+326: GLY   75  --  GLY   76    3.79 Å
+
+
+
+2. ex_2
+
+(base) PS C:\Users\noabu\Downloads\5CUATRI\BP\P1> python3 ex_2.py 1ubq.pdb 8          
+Residue LEU 8 (Chain A):
+  Atom: N    Coordinates: [30.132 40.069 18.642]
+  Atom: CA   Coordinates: [29.607 41.18  19.467]
+  Atom: C    Coordinates: [30.075 42.538 18.984]
+  Atom: O    Coordinates: [29.586 43.57  19.483]
+  Atom: CB   Coordinates: [29.919 40.89  20.938]
+  Atom: CG   Coordinates: [29.183 39.722 21.581]
+  Atom: CD1  Coordinates: [29.308 39.75  23.095]
+  Atom: CD2  Coordinates: [27.7   39.721 21.228]
+
+3. ex_3
+
+
+(base) PS C:\Users\noabu\Downloads\5CUATRI\BP\P1> python3 ex_3.py 1ubq.pdb 3.5       
+Possible Hydrogen Bonds:
+1: (N) -- (N)    3.31 Å
+2: (N) -- (N)    2.72 Å
+3: (N) -- (N)    2.70 Å
+4: (N) -- (N)    2.74 Å
+5: (N) -- (N)    3.49 Å
+6: (N) -- (N)    3.47 Å
+7: (N) -- (N)    3.33 Å
+8: (N) -- (N)    2.71 Å
+9: (N) -- (N)    2.65 Å
+10: (N) -- (N)    2.75 Å
+11: (N) -- (N)    2.79 Å
+12: (N) -- (N)    2.79 Å
+13: (N) -- (N)    2.78 Å
+14: (N) -- (N)    2.79 Å
+15: (N) -- (N)    2.82 Å
+16: (N) -- (N)    2.77 Å
+17: (N) -- (N)    2.74 Å
+18: (N) -- (N)    2.78 Å
+19: (N) -- (N)    2.84 Å
+20: (N) -- (N)    2.93 Å
+21: (N) -- (N)    2.72 Å
+22: (N) -- (N)    2.80 Å
+23: (N) -- (N)    3.49 Å
+24: (N) -- (N)    2.80 Å
+25: (N) -- (N)    2.71 Å
+26: (N) -- (N)    2.73 Å
+27: (N) -- (N)    3.38 Å
+28: (NE) -- (NE2)    2.75 Å
+29: (N) -- (N)    3.40 Å
+30: (N) -- (N)    2.77 Å
+31: (N) -- (N)    2.82 Å
+32: (N) -- (N)    3.44 Å
+33: (N) -- (N)    3.01 Å
+34: (N) -- (N)    2.80 Å
+35: (N) -- (N)    2.73 Å
+36: (N) -- (N)    2.76 Å
+37: (N) -- (N)    2.76 Å
+38: (N) -- (N)    2.78 Å
+39: (N) -- (N)    2.84 Å
+40: (N) -- (N)    3.38 Å
+41: (N) -- (N)    2.76 Å
+42: (N) -- (N)    3.49 Å
+43: (N) -- (N)    3.50 Å
+44: (N) -- (N)    3.40 Å
+45: (N) -- (N)    3.23 Å
+46: (N) -- (N)    3.19 Å
+47: (N) -- (N)    3.49 Å
+
+4. ex_4
+
+(base) PS C:\Users\noabu\Downloads\5CUATRI\BP\P1> python3 ex_4.py 1ubq.pdb ALA       
+Residue ALA 28 (Chain A): [38.794 25.761 13.88 ]
+Residue ALA 46 (Chain A): [18.443 29.143 19.083]
+
+5. ex_5
+
+(base) PS C:\Users\noabu\Downloads\5CUATRI\BP\P1> python3 ex_5.py 1ubq.pdb 2.5       
+Backbone Peptide Bonds: 
+1: ASN (C) -- ILE (N)  1.32 Å
+2: ILE (C) -- GLN (N)  1.30 Å
+3: GLN (C) -- LYS (N)  1.33 Å
+4: LEU (C) -- SER (N)  1.35 Å
+5: GLU (C) -- PRO (N)  1.32 Å
+6: SER (C) -- ASP (N)  1.33 Å
+7: VAL (C) -- GLU (N)  1.31 Å
+8: MET (C) -- GLN (N)  1.30 Å
+9: PRO (C) -- SER (N)  1.32 Å
+10: TYR (C) -- ASN (N)  1.32 Å
+11: ASP (C) -- TYR (N)  1.30 Å
+12: SER (C) -- ASP (N)  1.32 Å
+13: LYS (C) -- GLN (N)  1.31 Å
+14: THR (C) -- LEU (N)  1.32 Å
+15: ARG (C) -- THR (N)  1.31 Å
+16: LEU (C) -- GLU (N)  1.33 Å
+17: GLN (C) -- LEU (N)  1.31 Å
+18: LYS (C) -- GLU (N)  1.34 Å
+19: GLU (C) -- SER (N)  1.32 Å
+20: SER (C) -- THR (N)  1.31 Å
+21: THR (C) -- LEU (N)  1.34 Å
+22: PHE (C) -- VAL (N)  1.33 Å
+23: VAL (C) -- LYS (N)  1.29 Å
+24: LYS (C) -- THR (N)  1.35 Å
+25: GLN (C) -- ILE (N)  1.32 Å
+26: ILE (C) -- PHE (N)  1.31 Å
+27: ALA (C) -- GLY (N)  1.30 Å
+28: PHE (C) -- ALA (N)  1.31 Å
+29: ILE (C) -- PHE (N)  1.36 Å
+30: LEU (C) -- HIS (N)  1.29 Å
+31: HIS (C) -- LEU (N)  1.32 Å
+32: LEU (C) -- VAL (N)  1.29 Å
+33: LEU (C) -- ILE (N)  1.33 Å
+34: GLY (C) -- LYS (N)  1.31 Å
+35: GLU (C) -- VAL (N)  1.32 Å
+36: ASP (C) -- THR (N)  1.32 Å
+37: LEU (C) -- GLU (N)  1.31 Å
+38: LYS (C) -- ILE (N)  1.33 Å
+39: ALA (C) -- LYS (N)  1.32 Å
+40: GLN (C) -- ASP (N)  1.31 Å
+41: ASN (C) -- VAL (N)  1.33 Å
+42: ASP (C) -- GLY (N)  1.31 Å
+43: ILE (C) -- GLU (N)  1.31 Å
+44: ASP (C) -- GLN (N)  1.32 Å
+45: PRO (C) -- ASP (N)  1.31 Å
+46: PRO (C) -- PRO (N)  1.31 Å
+47: THR (C) -- ILE (N)  1.33 Å
+48: VAL (C) -- LYS (N)  1.33 Å
+49: GLU (C) -- ASN (N)  1.32 Å
+50: LYS (C) -- ALA (N)  1.32 Å
+51: LYS (C) -- THR (N)  1.32 Å
+52: THR (C) -- ILE (N)  1.33 Å
+53: THR (C) -- LEU (N)  1.32 Å
+54: ILE (C) -- THR (N)  1.31 Å
+55: LYS (C) -- GLU (N)  1.30 Å
+56: ASP (C) -- LYS (N)  1.35 Å
+57: GLY (C) -- ILE (N)  1.34 Å
+58: GLU (C) -- GLY (N)  1.32 Å
+59: VAL (C) -- LEU (N)  1.31 Å
+60: LEU (C) -- ARG (N)  1.28 Å
+61: ARG (C) -- LEU (N)  1.29 Å
+62: LEU (C) -- ARG (N)  1.32 Å
+63: ILE (C) -- PRO (N)  1.33 Å
+64: GLY (C) -- GLY (N)  1.32 Å
+65: ARG (C) -- GLY (N)  1.33 Å
+66: ILE (C) -- GLN (N)  1.31 Å
+67: GLN (C) -- ARG (N)  1.33 Å
+68: GLN (C) -- GLN (N)  1.31 Å
+69: GLY (C) -- ARG (N)  1.33 Å
+70: GLU (C) -- ASP (N)  1.31 Å
+71: ARG (C) -- LEU (N)  1.33 Å
+72: GLY (C) -- LYS (N)  1.31 Å
+73: THR (C) -- GLY (N)  1.30 Å
+74: THR (C) -- LEU (N)  1.32 Å
+75: LEU (C) -- THR (N)  1.35 Å
+
+
+6. ex_6
+
+(base) PS C:\Users\noabu\Downloads\5CUATRI\BP\P1> python3 ex_6.py 6axg_AC.pdb 24     
+Disulfide bonds:
+1: CYS (SG) -- CYS (SG)  18.86 Å
+2: CYS (SG) -- CYS (SG)  19.08 Å
+3: CYS (SG) -- CYS (SG)  23.80 Å
+4: CYS (SG) -- CYS (SG)  15.13 Å
+
+7. ex_7
+
+(base) PS C:\Users\noabu\Downloads\5CUATRI\BP\P1> python3 ex_7.py 1ubq.pdb 10 20
+N -- N  26.84 Å
+N -- CA  27.71 Å
+N -- C  27.01 Å
+N -- O  27.70 Å
+N -- CB  28.92 Å
+N -- OG  28.66 Å
+CA -- N  26.76 Å
+CA -- CA  27.69 Å
+CA -- C  27.05 Å
+CA -- O  27.80 Å
+CA -- CB  28.88 Å
+CA -- OG  28.58 Å
+C -- N  26.10 Å
+C -- CA  27.04 Å
+C -- C  26.41 Å
+C -- O  27.18 Å
+C -- CB  28.19 Å
+C -- OG  27.82 Å
+O -- N  26.36 Å
+O -- CA  27.35 Å
+O -- C  26.76 Å
+O -- O  27.57 Å
+O -- CB  28.47 Å
+O -- OG  28.05 Å
